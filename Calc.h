@@ -15,11 +15,11 @@ public:
 	void print();
 	std::string* storedExpressions;
 
-	void setStored(rsize_t newStored);
-	rsize_t getStored();
+	void setStored(size_t newStored);
+	size_t getStored();
 
 private:
-	rsize_t stored;
+	size_t stored;
 };
 
 #endif
